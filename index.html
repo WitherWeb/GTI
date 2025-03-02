@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#111111">
-  <title>GTI</title>
+  <title>GTB</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -15,6 +15,8 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
   />
+  <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/vendor.css">
   <link rel="stylesheet" href="css/main.css">
   <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
@@ -25,25 +27,30 @@
 <body class="page__body">
   <div class="site-container">
     <header class="header" id="header">
-  <div class="container">
-    <div class="header__navigation">
-      <a class="header__logo-link" href="">
-        <img class="header__logo-img" src="./img/logo.png" alt="">
-      </a>
-      <nav class="menu" data-menu>
-        <ul class="menu__list list-reset">
-          <li class="menu__item"><a href="" class="menu__link">Domů</a></li>
-          <li class="menu__item"><a href="" class="menu__link">O nás</a></li>
-          <li class="menu__item"><a href="tel:420800145146" class="menu__link">420 800145146</a></li>
-        </ul>
-      </nav>
-      <a class="header__callme" data-fancybox data-src="#popup-application" href="">
-        Kontaktujte nás
-       </a>
-      <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
-        <span class="burger__line"></span>
-      </button>
+  <div class="header__wrapper">
+    <div class="container">
+      <div class="header__navigation">
+        <a class="header__logo-link" href="">
+          <img class="header__logo-img" src="./img/logo.png" alt="">
+        </a>
+        <nav class="menu" data-menu>
+          <ul class="menu__list list-reset">
+            <li class="menu__item"><a href="./index.html" class="menu__link">Domů</a></li>
+            <li class="menu__item"><a href="./about.html" class="menu__link">O nás</a></li>
+            <li class="menu__item"><a href="tel:420800145146" class="menu__link">420 800145146</a></li>
+          </ul>
+        </nav>
+        <a class="header__callme" data-fancybox data-src="#popup-application" href="">
+          Kontaktujte nás
+        </a>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
     </div>
+  </div>
+  <div class="container">
+
   </div>
 </header>
 
@@ -52,222 +59,94 @@
   <div class="container">
     <div class="hero__info">
       <h1 class="hero__title h1">
-        ZELENÁ ENERGIE <br>
-        PRO VAŠI BUDOUCNOST
+        Green Technology Battery (GTB)
       </h1>
       <span class="hero__subtitle">
-        Optimalizujte energetické náklady s našimi inovativními bateriovými úložišti a solárními panely
-      </span>
-      <span class="hero__text">
-        Green Technology Battery: spolehlivost a úspory pro vaši budoucnost
+        Powering The World
       </span>
     </div>
   </div>
 </section>
 
-<section class="work">
+<section class="bess">
   <div class="container">
-    <h2 class="work__title h2 accent-border-up">Co děláme a co nabízíme</h2>
-    <p class="work__text">
-      Pomáháme se stabilizací energetické sítě pomocí pokročilých bateriových úložišť, což umožňuje efektivně vyrovnávat zátěž a chránit před přetížením a výpadky. Naše řešení pomáhají firmám a obcím optimalizovat nákup a prodej energie, čímž snižují náklady na elektřinu a zvyšují energetickou bezpečnost.
-      Podporujeme přechod na čistou energii a maximální využití obnovitelných zdrojů, přičemž nabízíme inovativní řešení pro ukládání energie. Nabízíme bateriová úložiště pro různé aplikace – od malých systémů pro domácnosti až po velkokapacitní systémy pro průmyslové podniky a obce.
-      Dále poskytujeme individuální řešení pro instalaci fotovoltaických panelů, včetně upevnění a rámů, pro různé typy objektů, čímž zajišťujeme efektivní a udržitelný provoz energetických systémů.
-    </p>
-  </div>
-</section>
-
-<section class="savings">
-  <div class="container">
-    <h2 class="savings__title h2 accent-border-up">Úspora energie se sníženou počáteční investicí</h2>
-    <p class="savings__text">
-      Chcete snížit náklady na energie a efektivně řídit jejich spotřebu? Společnost GTI vám nabízí moderní bateriová úložiště s výhodnou finanční strukturou, která vám umožní využívat nejnovější technologie bez nutnosti vysokých počátečních nákladů.
-    </p>
-    <div class="savings__content">
-      <div class="savings__block">
-        <h3 class="savings__block-title h3">1. Splátkový prodej</h3>
-        <ul class="savings__block-list list-reset">
-          <li class="savings__block-item">
-            <img class="savings__block-img" src="./img/energy.png" alt="">
-            Okamžité využívání bateriového úložiště.
-          </li>
-          <li class="savings__block-item">
-            <img class="savings__block-img" src="./img/energy.png" alt="">
-            Platíte pouze sníženou počáteční investici, zbytek formou pravidelných splátek.
-          </li>
-          <li class="savings__block-item">
-            <img class="savings__block-img" src="./img/energy.png" alt="">
-            Po splacení se úložiště stává vaším majetkem.
-          </li>
-        </ul>
+    <h2 class="bess__title h2 accent-border-up">Systémy BESS od společnosti GTB – Flexibilní a efektivní řešení pro vaši energetickou potřebu
+    </h2>
+    <div class="bess__list">
+      <div class="bess__item">
+        <div class="bess__item-info">
+          Společnost GTB se specializuje na pokročilé systémy pro ukládání energie BESS (Battery Energy Storage Systems), které nabízejí optimální řešení pro efektivní správu a využívání elektrické energie.
+        </div>
+        <img class="bess__item-img" src="./img/bess-item-1.png" alt="">
       </div>
-      <div class="savings__block">
-        <h3 class="savings__block-title h3">1. Pronájem přípojného bodu</h3>
-        <ul class="savings__block-list list-reset">
-          <li class="savings__block-item">
-            <img class="savings__block-img" src="./img/energy.png" alt="">
-            Umístíme naše bateriové úložiště na váš přípojný bod.
-          </li>
-          <li class="savings__block-item">
-            <img class="savings__block-img" src="./img/energy.png" alt="">
-            GTI zajišťuje vlastnictví a provoz zařízení.
-          </li>
-          <li class="savings__block-item">
-            <img class="savings__block-img" src="./img/energy.png" alt="">
-            Vy získáváte pravidelný nájem za využití vašeho připojení.
-          </li>
-        </ul>
-      </div>
-      <div class="savings__block">
-        <div class="savings__block-content">
-          <div class="savings__block-info">
-            <h3 class="savings__block-title h3">Proč si vybrat bateriové úložiště od GTI?</h3>
-            <ul class="savings__block-list list-reset">
-              <li class="savings__block-item">
-                <img class="savings__block-img" src="./img/energy.png" alt="">
-                Nižší náklady na energie díky optimalizaci spotřeby.
-              </li>
-              <li class="savings__block-item">
-                <img class="savings__block-img" src="./img/energy.png" alt="">
-                Snížená počáteční investice – dostupné řešení bez velkých výdajů na začátku.
-              </li>
-              <li class="savings__block-item">
-                <img class="savings__block-img" src="./img/energy.png" alt="">
-                Moderní technologie a spolehlivé řešení od odborníků.
-              </li>
-            </ul>
-          </div>
-          <div class="savings__block-additionally">
-            <p class="savings__block-additionally-text">
-              Máte zájem o některou z možností? Kontaktujte nás a připravíme vám individuální nabídku!
-            </p>
-            <a class="savings__block-additionally-link" data-fancybox data-src="#popup-application" href="">Kontaktujte nás</a>
-          </div>
+      <div class="bess__item">
+        <img class="bess__item-img" src="./img/bess-item-2.png" alt="">
+        <div class="bess__item-info">
+          Naše produkty pokrývají širokou škálu energetických potřeb a jsou rozděleny do tří kategorií, aby vyhovovaly různým požadavkům našich zákazníků.
         </div>
       </div>
+      <svg width="99" height="352" viewBox="0 0 99 352" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 1H52V351H99" stroke="#0B2C10" stroke-width="2" />
+      </svg>
     </div>
   </div>
 </section>
+
+<section class="bess-product">
+  <div class="container">
+    <h2 class="bess-product__title h2 accent-border-up">Naše produkty BESS</h2>
+    <div class="bess-product__content">
+      <div class="bess-product__item">
+        <span class="bess-product__item-name">Malé BESS (50 kW - 500 kW)</span>
+        <p class="bess-product__text">
+          Ideální pro menší podniky, komerční objekty nebo domácnosti s vyššími nároky na energii. Tato řešení poskytují flexibilitu a umožňují optimalizovat náklady na elektřinu, zatímco se snadno integrují do stávající infrastruktury.
+        </p>
+        <img class="bess-product__img" src="./img/bess-product-1.png" alt="">
+      </div>
+      <div class="bess-product__item">
+        <span class="bess-product__item-name">Střední BESS (1 MW - 3 MW)</span>
+        <p class="bess-product__text">
+          Pro firmy a instituce s většími energetickými potřebami. Tato řešení zajišťují stabilitu napájení, poskytují dostatečnou kapacitu pro řízení spotřeby a mohou být využita k účinnému vyrovnávání výkyvů v síti.
+        </p>
+        <img class="bess-product__img" src="./img/bess-product-2.png" alt="">
+      </div>
+      <div class="bess-product__item bess-product__item--col-2">
+        <span class="bess-product__item-name">Velké BESS (od 5 MW)</span>
+        <p class="bess-product__text">
+          Pro velké průmyslové provozy nebo komerční projekty, kde je požadována vysoká kapacita a vysoký výkon. Tato zařízení jsou ideální pro optimalizaci spotřeby na široké škále aplikací a pro implementaci do větších energetických systémů.
+        </p>
+        <p class="bess-product__text bess-product__text--big">
+          Jste připraveni diskutovat o spolupráci? Zanechte žádost a my vás budeme kontaktovat!
+        </p>
+        <a class="bess-product__link" data-fancybox="" data-src="#popup-application" href="">Kontaktujte nás</a>
+        <img class="bess-product__img" src="./img/bess-product-3.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <section class="about-s">
   <div class="container">
-    <h2 class="about-s__title h2 accent-border-up">O nás pro partnery</h2>
+    <h2 class="about-s__title h2 accent-border-up">Provoz a servis BESS systémů s GTI
+    </h2>
     <p class="about-s__text">
-      Společnost GTI vám nejen poskytuje odbornou pomoc s implementací a optimalizací vašeho Systému Služby Výkonové Rovnováhy (SVR), ale také se postará o bezproblémový provoz a komplexní servis tohoto systému. Naší prioritou je zajistit, aby váš SVR systém fungoval vždy na maximální efektivitě a v souladu s požadavky energetické sítě.
-      <br><br>
-      Navíc nabízíme i podporu pro systém BESS (Battery Energy Storage System) od renomované společnosti GTB. Tento pokročilý systém pro ukládání energie vám umožní ještě flexibilněji reagovat na výkyvy v poptávce a nabídce elektřiny a přináší další možnosti pro optimalizaci vašich nákladů a zisků
-      <br><br>
-      S naším servisem a odborným poradenstvím se nemusíte obávat žádných nečekaných problémů – garantujeme vám spolehlivý, efektivní a ekonomický provoz vašich systémů. Postaráme se o pravidelnou údržbu, monitoring výkonu a rychlou reakci na jakékoli technické výzvy, což vám umožní soustředit se na vaše hlavní obchodní aktivity.
+      Společnost GTI se postará o provoz a komplexní servis vašich BESS systémů. Naši odborníci zajistí nejen instalaci a uvedení do provozu, ale i pravidelnou údržbu, monitoring výkonu a okamžitou technickou podporu. S naším profesionálním servisem bude váš BESS systém fungovat na maximální efektivitě, což přinese vaší firmě nejen úspory, ale také stabilitu a spolehlivost v dodávkách energie.
     </p>
   </div>
 </section>
 
-<section class="advantages">
-  <div class="advantages__wrapper">
-    <div class="container">
-      <div class="advantages__content">
-        <h2 class="advantages__title h2">Výhody naší společnosti</h2>
-        <div class="advantages__info">
-          <div class="advantages__item">
-            <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
-            <div class="advantages__item-inner">
-              <span class="advantages__item-inner-title">Inovativní technologie</span>
-              <span class="advantages__item-inner-text">Stabilizace energetických sítí pomocí pokročilých akumulátorových řešení.</span>
-            </div>
-          </div>
-          <div class="advantages__item">
-            <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
-            <div class="advantages__item-inner">
-              <span class="advantages__item-inner-title">Energetická nezávislost a bezpečnost</span>
-              <span class="advantages__item-inner-text">Ochrana před přetížením, výpadky a black-outy.</span>
-            </div>
-          </div>
-          <div class="advantages__item">
-            <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
-            <div class="advantages__item-inner">
-              <span class="advantages__item-inner-title">Personalizovaná řešení</span>
-              <span class="advantages__item-inner-text">Individuální projekty solárních panelů a akumulátorových úložišť.</span>
-            </div>
-          </div>
-          <div class="advantages__item">
-            <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
-            <div class="advantages__item-inner">
-              <span class="advantages__item-inner-title">Podpora zelené energetiky</span>
-              <span class="advantages__item-inner-text">Přechod na obnovitelné zdroje a snížení nákladů na elektřinu.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="advantages__bottom">
-    <div class="container">
-      <div class="advantages__bottom-list">
-        <div class="advantages__bottom-item">
-          Zkušenosti od roku 2012
-        </div>
-        <div class="advantages__bottom-item">
-          Podpora partnera
-        </div>
-        <div class="advantages__bottom-item">
-          Lokální infrastruktura
-        </div>
-        <div class="advantages__bottom-item">
-          Energetická nezávislost
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="mission">
-  <div class="container">
-    <div class="mission__content">
-      <img class="mission__img" src="./img/pexels-gustavo.webp" alt="">
-      <div class="mission__info">
-        <h2 class="mission__title h2">Naše mise</h2>
-        <p class="mission__text">
-          Naše mise je velmi jednoduchá, pomáhat efektivně využívat zejména zelenou energii tak, aby byla dostupná všem po celý rok a mohla ve správnou chvíli pomáhat vyrovnávat síť, chránit ji před výpadky a zároveň tím nejen snižovat náklady na elektrickou energii, ale i vydělávat na změnách cen elektrické energie v průběhu denních fází.
-          <br><br>
-          Z tohoto důvodu se GTI zaměřuje na investice do strategických projektů v oblasti obnovitelných zdrojů energie a bateriových úložišť. Naopak GTB se specializuje na obchodování s bateriovými uložištěmi k vyrovnávání sítě a ukládání energie do velkokapacitních baterií. Společně tvoříme udržitelnou a efektivní energetickou budoucnost i strategického partnera pro naše zákazníky.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="for-whom">
+<section class="accent-block">
   <div class="container">
-    <h2 class="for-whom__title h2">
-      Pro koho jsou naše řešení vhodná?
-    </h2>
-    <ul class="for-whom__list list-reset">
-      <li class="for-whom__item">
-        <img class="for-whom__item-img" src="./img/energy.webp" alt="">
-        Pro správce sítí, ideálně lokálních distribučních sítí (LDS)
-      </li>
-      <li class="for-whom__item">
-        <img class="for-whom__item-img" src="./img/energy.webp" alt="">
-        Pro průmyslové podniky z důvodu snížení nákladů na elektřinu a energetickou nezávislost
-      </li>
-      <li class="for-whom__item">
-        <img class="for-whom__item-img" src="./img/energy.webp" alt="">
-        Pro obce a města z důvodu stabilní dodávky energie a bezpečnosti sítě
-      </li>
-      <li class="for-whom__item">
-        <img class="for-whom__item-img" src="./img/energy.webp" alt="">
-        Pro investiční skupiny z důvodu rychlé návratnosti a pro udržitelný byznys
-      </li>
-      <li class="for-whom__item">
-        <img class="for-whom__item-img" src="./img/energy.webp" alt="">
-        Pro výrobní areály z důvodu optimalizace spotřeby a ochrany před výkyvy cen energií
-      </li>
-    </ul>
+    <span class="accent-block__text">GTB a GTI jsou vašimi spolehlivými partnery v oblasti ukládání energie, přičemž díky našim produktům a službám získáte nejmodernější technologie pro správu energie, šetření nákladů a optimalizaci výkonu </span>
   </div>
 </section>
 
 <section class="application">
   <div class="container">
-    <h2 class="application__title h2">
+    <h2 class="application__title accent-border-up h2">
       V případě jakýchkoli dotazů nebo potřeb, neváhejte nás kontaktovat – stačí vyplnit náš kontaktní formulář a my se vám co nejdříve ozveme
     </h2>
     <p class="application__text">
@@ -280,33 +159,30 @@
           <div class="application__form-inputs">
             <input class="application__form-input input-reset" type="text" placeholder="Křestní jméno">
             <input class="application__form-input input-reset" type="text" placeholder="Příjmení">
-            <input class="application__form-input application__form-input--col-2 input-reset" type="email" placeholder="Email Address">
-            <input class="application__form-input application__form-input--col-2 input-reset" type="text" placeholder="Subject Line">
-            <textarea class="application__form-input application__form-input--col-2 application__form-textarea input-reset" name="" id="" placeholder="Drop Your Message..."></textarea>
+            <input class="application__form-input application__form-input--col-2 input-reset" type="email" placeholder="E-mailová adresa">
+            <input class="application__form-input application__form-input--col-2 input-reset" type="text" placeholder="Předmětová řada">
+            <textarea class="application__form-input application__form-input--col-2 application__form-textarea input-reset" name="" id="" placeholder="Zahoďte svou zprávu..."></textarea>
           </div>
           <label class="custom-checkbox application__form-checkbox">
             <input type="checkbox" class="custom-checkbox__field application__form-checkbox-field">
-            <span class="custom-checkbox__content application__form-checkbox-content">I’ve read and agree with <a href="">terms</a> & <a href="">privacy policy</a>.</span>
+            <span class="custom-checkbox__content application__form-checkbox-content">Přečetl jsem si podmínky a zásady ochrany osobních údajů a souhlasím s nimi.</span>
           </label>
           <button class="application__form-submit btn-reset">KONTAKT</button>
         </div>
         <div class="application__form-info">
           <img class="application__form-map" src="./img/application-map.webp" alt="">
           <a class="application__form-link-tel" href="tel:420800145146">
-            <div class="application__form-link-icon">
-              <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_222_54)">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.65179 0.990062C3.9908 0.651559 4.39788 0.388969 4.84606 0.219693C5.29423 0.050417 5.77326 -0.0216793 6.25141 0.00818188C6.72955 0.038043 7.19589 0.16918 7.61952 0.392902C8.04315 0.616624 8.4144 0.927822 8.70866 1.30587L12.1865 5.77375C12.8239 6.59331 13.0487 7.66087 12.7968 8.66837L11.737 12.9115C11.6826 13.1313 11.6857 13.3614 11.7461 13.5796C11.8065 13.7978 11.9222 13.9968 12.0819 14.1573L16.8423 18.9177C17.003 19.0778 17.2023 19.1936 17.4209 19.254C17.6395 19.3144 17.87 19.3174 18.09 19.2626L22.3312 18.2028C22.8285 18.0792 23.3473 18.0699 23.8486 18.1756C24.35 18.2813 24.8208 18.4993 25.2259 18.8131L29.6937 22.289C31.2999 23.5387 31.4472 25.9121 30.0095 27.3478L28.0062 29.3512C26.5724 30.7849 24.4295 31.4146 22.432 30.7113C17.3183 28.9144 12.6758 25.9872 8.8501 22.1476C5.0107 18.3224 2.08348 13.6806 0.28635 8.56762C-0.415025 6.572 0.214663 4.42719 1.64841 2.99344L3.65179 0.990062ZM21.3121 0.96875C21.3121 0.711821 21.4142 0.465416 21.5958 0.28374C21.7775 0.102064 22.0239 0 22.2809 0L30.0309 0C30.2878 0 30.5342 0.102064 30.7159 0.28374C30.8975 0.465416 30.9996 0.711821 30.9996 0.96875V8.71875C30.9996 8.97568 30.8975 9.22208 30.7159 9.40376C30.5342 9.58543 30.2878 9.6875 30.0309 9.6875C29.7739 9.6875 29.5275 9.58543 29.3458 9.40376C29.1642 9.22208 29.0621 8.97568 29.0621 8.71875V3.30731L21.0292 11.3421C20.8473 11.524 20.6006 11.6262 20.3434 11.6262C20.0861 11.6262 19.8394 11.524 19.6575 11.3421C19.4756 11.1602 19.3734 10.9135 19.3734 10.6562C19.3734 10.399 19.4756 10.1523 19.6575 9.97037L27.6923 1.9375H22.2809C22.0239 1.9375 21.7775 1.83544 21.5958 1.65376C21.4142 1.47208 21.3121 1.22568 21.3121 0.96875Z" fill="white"/>
-                </g>
-                <defs>
-                <clipPath id="clip0_222_54">
-                <rect width="31" height="31" fill="white"/>
-                </clipPath>
-                </defs>
-              </svg>
-            </div>
+             <img src="./img/Ringer-Volume.png" alt="">
             420 800145146
           </a>
+          <a class="application__form-link-tel" href="">
+            <img src="./img/Place-Marker.png" alt="">
+            Zámek Bezno, Zámecká 26, Bezno 294 29
+         </a>
+         <a class="application__form-link-tel" href="mailto:jmd@greentechnologybattery.com">
+            <img src="./img/Email.png" alt="">
+            jmd@greentechnologybattery.com
+        </a>
          <ul class="application__social-list list-reset">
           <li class="application__social-item">
             <a class="application__social-link" href="">
@@ -347,21 +223,21 @@
     <div class="footer__content">
       <ul class="footer__list list-reset">
         <li class="footer__item">
-          Adresa: [Doplňte adresu společnosti]
+          Adresa: Zámek Bezno, Zámecká 26, Bezno 294 29
         </li>
         <li class="footer__item">
           <a class="footer__item-link" href="mailto:[Doplňte e-mail]">
-            E-mail: [Doplňte e-mail]
+
           </a>
         </li>
         <li class="footer__item">
           <a class="footer__item-link" href="tel:420800145146">
-            Telefon: 420 800145146
+            E-mail: jmd@greentechnologybattery.com
           </a>
         </li>
         <li class="footer__item">
           <a class="footer__item-link" href="">
-            Web: [Doplňte URL webu
+            Telefon: 420 800145146
           </a>
         </li>
       </ul>

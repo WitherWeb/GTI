@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#111111">
-  <title>GTI</title>
+  <title>GTB</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -15,6 +15,8 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
   />
+  <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/vendor.css">
   <link rel="stylesheet" href="css/main.css">
   <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
@@ -25,25 +27,30 @@
 <body class="page__body">
   <div class="site-container">
     <header class="header" id="header">
-  <div class="container">
-    <div class="header__navigation">
-      <a class="header__logo-link" href="">
-        <img class="header__logo-img" src="./img/logo.png" alt="">
-      </a>
-      <nav class="menu" data-menu>
-        <ul class="menu__list list-reset">
-          <li class="menu__item"><a href="" class="menu__link">Domů</a></li>
-          <li class="menu__item"><a href="" class="menu__link">O nás</a></li>
-          <li class="menu__item"><a href="tel:420800145146" class="menu__link">420 800145146</a></li>
-        </ul>
-      </nav>
-      <a class="header__callme" data-fancybox data-src="#popup-application" href="">
-        Kontaktujte nás
-       </a>
-      <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
-        <span class="burger__line"></span>
-      </button>
+  <div class="header__wrapper">
+    <div class="container">
+      <div class="header__navigation">
+        <a class="header__logo-link" href="">
+          <img class="header__logo-img" src="./img/logo.png" alt="">
+        </a>
+        <nav class="menu" data-menu>
+          <ul class="menu__list list-reset">
+            <li class="menu__item"><a href="./index.html" class="menu__link">Domů</a></li>
+            <li class="menu__item"><a href="./about.html" class="menu__link">O nás</a></li>
+            <li class="menu__item"><a href="tel:420800145146" class="menu__link">420 800145146</a></li>
+          </ul>
+        </nav>
+        <a class="header__callme" data-fancybox data-src="#popup-application" href="">
+          Kontaktujte nás
+        </a>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
     </div>
+  </div>
+  <div class="container">
+
   </div>
 </header>
 
@@ -52,101 +59,81 @@
         <div class="container">
           <div class="hero__info">
             <h1 class="hero__title hero-about__title h1">
-              O společnosti Green <br> Technology Battery (GTB)
+              O společnosti <br>
+              Green Technology Battery (GTB)
             </h1>
+            <span class="hero__subtitle">
+              Chytré bateriové úložiště – klíč k levnější energi
+            </span>
           </div>
         </div>
       </section>
 
       <section class="about">
         <div class="container">
-          <h2 class="about__title h2">O nás</h2>
+          <h2 class="about__title h2 accent-border-up">O nás</h2>
           <div class="about__content">
-            <div class="about__info">
-              <h3 class="about__info-title accent-border-up h3">O společnosti:</h3>
-              <p class="about__info-text">
-                Společnost Green Technology Battery (GTB) byla založena s cílem vyvíjet a vyrábět inovativní akumulátory pro podporu energetické nezávislosti a udržitelného rozvoje prostřednictvím obnovitelných zdrojů energie. Věříme, že zelená energie a její efektivní skladování jsou klíčem k budoucnosti
-              </p>
+           <div class="about__info">
+            Naše společnost Green Technology Battery (dále jen GTB) vznikla vznikla na popud rodiny De Bären a za asistence obchodního partnera Ing. Radima Třešňáka na počátku roku 2023 za účelem přípravy vlastní výroby speciálního typu baterií vycházející ze zkušeností několika členů našeho týmu působící několik let v této oblasti. V tomto odvětví podnikáme již od roku 2012, kdy jsme komplexně působili v oblasti energetiky, zejména v oblasti lokálních distribučních sítí a fotovoltaiky. Naším primárním cílem je vybudování velké lokální distribuční sítě, která by měla obhospodařovat naše bytové portfolio o 540 bytových jednotkách a dalších prostorách, včetně dobíjecích stanic pro naše nájemníky a obchodní partnery nedaleko Mladé Boleslavi a Mnichova Hradiště. Z tohoto důvodu nás zajímá zelená energie, její skladování, obchodování s ní a zároveň i stabilizace energetické sítě, právě prostřednictvím inovativních bateriových úložišť.
+           </div>
+           <div class="about__content-imgs">
+            <img class="about__img" src="./img/sungrow-eme.webp" alt="">
+            <img class="about__img" src="./img/zbynek-buriv.webp" alt="">
             </div>
-            <img class="about__img" src="./img/pexels-kindelme.webp" alt="">
           </div>
-          <h3 class="about__values-title h3">Naše hodnoty:</h3>
-          <div class="about__values">
-            <div class="about__value">
-              <img class="about__value-img" src="./img/Check-Mark.png" alt="">
-              Inovace v energetice
-            </div>
-            <div class="about__value">
-              <img class="about__value-img" src="./img/Check-Mark.png" alt="">
-              Efektivní využívání obnovitelných zdrojů energie
-            </div>
-            <div class="about__value">
-              <img class="about__value-img" src="./img/Check-Mark.png" alt="">
-              Udržitelnost a ekologičnost
-            </div>
-            <div class="about__value">
-              <img class="about__value-img" src="./img/Check-Mark.png" alt="">
-              Transparentnost a čestnost ve vztazích s partnery
-            </div>
-            <div class="about__value">
-              <img class="about__value-img" src="./img/Check-Mark.png" alt="">
-              Spolehlivost a bezpečnost energetických systémů
+          <div class="about__content-2">
+            <img class="about__img" src="./img/kg-baek.webp" alt="">
+            <div class="about__info">
+              Vzhledem k velkému zájmu o tyto technologie, rozhodli jsme se zabývat těmito technologiemi i na komerční bázi pro naše obchodní partnery a další zájemce z řad energetických společností či malých územních celků orientujících se na vlastní energetickou nezávislost. Protože tento cíl přesahuje možnosti naší rodiny, rozhodli jsme se založit společnost Green Technology Investment s.r.o. (dále jen GTI), abychom byli schopni vyhovět většímu počtu našich zákazníků, převážně z řad obchodníků a malých investorů.
             </div>
           </div>
         </div>
       </section>
 
-      <section class="what-we-do">
+      <section class="about-s">
         <div class="container">
-          <h2 class="what-we-do__title h2">Co děláme</h2>
-          <ul class="what-we-do__list list-reset">
-            <li class="what-we-do__item">
-              <a class="what-we-do__link" href="">
-                <img class="what-we-do__item-img" src="./img/what-we-do-img-1.webp" alt="">
-                <span class="what-we-do__item-name">Stabilizace energetických sítí</span>
-              </a>
+          <h2 class="about-s__title h2 accent-border-up">Naše mise</h2>
+          <p class="about-s__text">
+            Naše mise je velmi jednoduchá, pomáhat efektivně využívat zejména zelenou energii tak, aby byla dostupná všem po celý rok a mohla ve správnou chvíli pomáhat vyrovnávat síť, chránit ji před výpadky a zároveň tím nejen snižovat náklady na elektrickou energii, ale i vydělávat na změnách cen elektrické energie v průběhu denních fází.
+            Z tohoto důvodu se GTI zaměřuje na investice do strategických projektů v oblasti obnovitelných zdrojů energie a bateriových úložišť. Naopak GTB se specializuje na obchodování s bateriovými uložištěmi k vyrovnávání sítě a ukládání energie do velkokapacitních baterií. Společně tvoříme udržitelnou a efektivní energetickou budoucnost i strategického partnera pro naše zákazníky.
+          </p>
+        </div>
+      </section>
+
+      <section class="for-whom">
+        <div class="container">
+          <h2 class="for-whom__title h2 accent-border-up">
+            Co děláme
+          </h2>
+          <ul class="for-whom__list list-reset">
+            <li class="for-whom__item">
+              <img class="for-whom__item-img" src="./img/energy.webp" alt="">
+              Stabilizujeme energetickou síť pomocí pokročilých bateriových úložišť.
             </li>
-            <li class="what-we-do__item">
-              <a class="what-we-do__link" href="">
-                <img class="what-we-do__item-img" src="./img/what-we-do-img-2.webp" alt="">
-                <span class="what-we-do__item-name">Snižování nákladů na energii</span>
-              </a>
+            <li class="for-whom__item">
+              <img class="for-whom__item-img" src="./img/energy.webp" alt="">
+              Pomáháme firmám a obcím šetřit náklady díky optimalizaci nákupu a prodeje energie.
             </li>
-            <li class="what-we-do__item">
-              <a class="what-we-do__link" href="">
-                <img class="what-we-do__item-img" src="./img/what-we-do-img-3.webp" alt="">
-                <span class="what-we-do__item-name">Podpora přechodu na obnovitelné zdroje</span>
-              </a>
+            <li class="for-whom__item">
+              <img class="for-whom__item-img" src="./img/energy.webp" alt="">
+              Podporujeme přechod na čistou energii a maximální využití obnovitelných zdrojů.
             </li>
-            <li class="what-we-do__item">
-              <a class="what-we-do__link" href="">
-                <img class="what-we-do__item-img" src="./img/what-we-do-img-4.webp" alt="">
-                <span class="what-we-do__item-name">Ochrana před výpadky</span>
-              </a>
+            <li class="for-whom__item">
+              <img class="for-whom__item-img" src="./img/energy.webp" alt="">
+              Chráníme distribuční síť před přetížením a stabilizujeme energetický systém.
             </li>
-            <li class="what-we-do__item">
-              <a class="what-we-do__link" href="">
-                <img class="what-we-do__item-img" src="./img/what-we-do-img-5.webp" alt="">
-                <span class="what-we-do__item-name">Inteligentní řízení energie</span>
-              </a>
+            <li class="for-whom__item">
+              <img class="for-whom__item-img" src="./img/energy.webp" alt="">
+              Chráníme sítě před black-outy a zajišťujeme energetickou bezpečnost.
+              Umožňujeme inteligentní řízení energie.
             </li>
-            <li class="what-we-do__item">
-              <a class="what-we-do__link" href="">
-                <img class="what-we-do__item-img" src="./img/what-we-do-img-6.webp" alt="">
-                <span class="what-we-do__item-name">Zajištění energetické bezpečnosti</span>
-              </a>
+            <li class="for-whom__item">
+              <img class="for-whom__item-img" src="./img/energy.webp" alt="">
+              Umožňujeme nákup levné energie a prodej energie v době vyšších cen.
             </li>
-            <li class="what-we-do__item">
-              <a class="what-we-do__link" href="">
-                <img class="what-we-do__item-img" src="./img/what-we-do-img-7.webp" alt="">
-                <span class="what-we-do__item-name">Skladování energie</span>
-              </a>
-            </li>
-            <li class="what-we-do__item">
-              <a class="what-we-do__link" href="">
-                <img class="what-we-do__item-img" src="./img/what-we-do-img-8.webp" alt="">
-                <span class="what-we-do__item-name">Obchodování s energiemi</span>
-              </a>
+            <li class="for-whom__item">
+              <img class="for-whom__item-img" src="./img/energy.webp" alt="">
+              Optimalizaci využití energie z fotovoltaiky a dalších obnovitelných zdrojů.
             </li>
           </ul>
         </div>
@@ -154,30 +141,168 @@
 
       <section class="accent-block">
         <div class="container">
-          <span class="accent-block__text">POŽÁDAT O KONZULTACI</span>
+          <span class="accent-block__text">Také nabízíme
+            různé druhy FV panelů na míru včetně <br> úchytů či rámů.</span>
         </div>
       </section>
+
+      <section class="advantages">
+        <div class="advantages__wrapper">
+          <div class="container">
+            <div class="advantages__content">
+              <h2 class="advantages__title h2">Pro koho jsou naše řešení vhodná?</h2>
+              <div class="advantages__info">
+                <div class="advantages__item">
+                  <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
+                  <div class="advantages__item-inner">
+                    <span class="advantages__item-inner-title">Pro správce sítí, ideálně lokálních distribučních sítí (LDS) </span>
+
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
+                  <div class="advantages__item-inner">
+                    <span class="advantages__item-inner-title">Pro průmyslové podniky z důvodu snížení nákladů na elektřinu a energetickou nezávislost</span>
+
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
+                  <div class="advantages__item-inner">
+                    <span class="advantages__item-inner-title">Pro obce a města z důvodu stabilní dodávky energie a bezpečnosti sítě</span>
+
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
+                  <div class="advantages__item-inner">
+                    <span class="advantages__item-inner-title">Pro investiční skupiny z důvodu rychlé návratnosti a pro udržitelný byznys</span>
+
+                  </div>
+                </div>
+                <div class="advantages__item">
+                  <img class="advantages__item-check" src="./img/Check-Mark.png" alt="">
+                  <div class="advantages__item-inner">
+                    <span class="advantages__item-inner-title">Pro výrobní areály z důvodu optimalizace spotřeby a ochrany před výkyvy cen energií.
+                    </span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mission">
+        <div class="container">
+          <div class="mission__content">
+            <img class="mission__img" src="./img/thomas-coke.webp" alt="">
+            <div class="mission__info">
+              <h2 class="mission__title h2 accent-border-up">Co děláme </h2>
+              <p class="mission__text">
+                Naší vizí je pomáhat firmám, obcím i investorům při přechodu na stabilní a ekologickou energetiku nebo v kombinaci se stávající sítí pod vlastním dodavatelem. Chceme, aby obnovitelné zdroje nebyly jen doplňkem, ale klíčovým pilířem energetického systému. Díky našim technologiím umožňujeme efektivní skladování energie, což vede k nižším nákladům, vyšší bezpečnosti a menší závislosti na fosilních palivech.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="application">
+        <div class="container">
+          <h2 class="application__title accent-border-up h2">
+            V případě jakýchkoli dotazů nebo potřeb, neváhejte nás kontaktovat – stačí vyplnit náš kontaktní formulář a my se vám co nejdříve ozveme
+          </h2>
+          <p class="application__text">
+            Naši odborníci vám rádi a rychle pomohou s jakýmikoli informacemi, poradí vám ohledně našich služeb, nebo vám poskytnou podporu při jakékoli technické či provozní otázce. Vaše spokojenost a bezproblémový průběh všech procesů je pro nás prioritou, a proto se postaráme o to, aby vše probíhalo hladce a efektivně. Jsme tu pro vás!
+          </p>
+          <form class="application__form" action="">
+            <div class="application__form-content">
+              <div class="application__form-wrapper">
+                <h3 class="application__form-title h3">Kontaktujte nás</h3>
+                <div class="application__form-inputs">
+                  <input class="application__form-input input-reset" type="text" placeholder="Křestní jméno">
+                  <input class="application__form-input input-reset" type="text" placeholder="Příjmení">
+                  <input class="application__form-input application__form-input--col-2 input-reset" type="email" placeholder="E-mailová adresa">
+                  <input class="application__form-input application__form-input--col-2 input-reset" type="text" placeholder="Předmětová řada">
+                  <textarea class="application__form-input application__form-input--col-2 application__form-textarea input-reset" name="" id="" placeholder="Zahoďte svou zprávu..."></textarea>
+                </div>
+                <label class="custom-checkbox application__form-checkbox">
+                  <input type="checkbox" class="custom-checkbox__field application__form-checkbox-field">
+                  <span class="custom-checkbox__content application__form-checkbox-content">Přečetl jsem si podmínky a zásady ochrany osobních údajů a souhlasím s nimi.</span>
+                </label>
+                <button class="application__form-submit btn-reset">KONTAKT</button>
+              </div>
+              <div class="application__form-info">
+                <img class="application__form-map" src="./img/application-map.webp" alt="">
+                <a class="application__form-link-tel" href="tel:420800145146">
+                   <img src="./img/Ringer-Volume.png" alt="">
+                  420 800145146
+                </a>
+                <a class="application__form-link-tel" href="">
+                  <img src="./img/Place-Marker.png" alt="">
+                  Zámek Bezno, Zámecká 26, Bezno 294 29
+               </a>
+               <a class="application__form-link-tel" href="mailto:jmd@greentechnologybattery.com">
+                  <img src="./img/Email.png" alt="">
+                  jmd@greentechnologybattery.com
+              </a>
+               <ul class="application__social-list list-reset">
+                <li class="application__social-item">
+                  <a class="application__social-link" href="">
+                    <img class="application__social-img" src="./img/social-img-1.webp" alt="">
+                  </a>
+                </li>
+                <li class="application__social-item">
+                  <a class="application__social-link" href="">
+                    <img class="application__social-img" src="./img/social-img-2.webp" alt="">
+                  </a>
+                </li>
+                <li class="application__social-item">
+                  <a class="application__social-link" href="">
+                    <img class="application__social-img" src="./img/social-img-3.webp" alt="">
+                  </a>
+                </li>
+                <li class="application__social-item">
+                  <a class="application__social-link" href="">
+                    <img class="application__social-img" src="./img/social-img-4.webp" alt="">
+                  </a>
+                </li>
+                <li class="application__social-item">
+                  <a class="application__social-link" href="">
+                    <img class="application__social-img" src="./img/social-img-5.webp" alt="">
+                  </a>
+                </li>
+               </ul>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </section>
+
+
     </main>
     <footer class="footer">
   <div class="container">
     <div class="footer__content">
       <ul class="footer__list list-reset">
         <li class="footer__item">
-          Adresa: [Doplňte adresu společnosti]
+          Adresa: Zámek Bezno, Zámecká 26, Bezno 294 29
         </li>
         <li class="footer__item">
           <a class="footer__item-link" href="mailto:[Doplňte e-mail]">
-            E-mail: [Doplňte e-mail]
+
           </a>
         </li>
         <li class="footer__item">
           <a class="footer__item-link" href="tel:420800145146">
-            Telefon: 420 800145146
+            E-mail: jmd@greentechnologybattery.com
           </a>
         </li>
         <li class="footer__item">
           <a class="footer__item-link" href="">
-            Web: [Doplňte URL webu
+            Telefon: 420 800145146
           </a>
         </li>
       </ul>
